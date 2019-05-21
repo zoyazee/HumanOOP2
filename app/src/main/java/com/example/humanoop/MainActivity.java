@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
         joy.sleep();
         joy.sleep(5);
         joy.birthday();
-        joy.speak(" ");
+        joy.speak("Am God's child");
         Log.d("Human","joy your new age is " +joy.getAge());
 
         Anna lady = new Anna("zee",48,70,16);
         lady.eat();
-        lady.eat(70);
-        lady.birthday(48);
-
+        Log.d("Human","Anna your new weight is " + lady.getWeight());
+        lady.birthday();
+        Log.d("Human","Your new age is " + lady.getAge());
 
     }
 

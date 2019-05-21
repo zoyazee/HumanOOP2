@@ -38,28 +38,25 @@ public class Human {
     }
 
     public void eat() {
-        Log.d("human","I am eating food");
-    }
-
-    public int eat(int weight) {
-        weight = weight +  2;
-        return Log.d("human","My new weight is " + weight + "Kg");
+        Log.d("Human","I am eating food");
     }
 
     public void sleep() {
-        Log.d("human","zzzzzzzzzzz");
+        Log.d("Human","zzzzzzzzzzz");
     }
 
     public void sleep(int hours) {
-        Log.d("human","I am sleeping for " + hours + "hours");
+        Log.d("Human","I am sleeping for " + hours + "hours");
     }
 
     public void speak(String speech) {
-        Log.d("human","Hey,Gentlemen");
+        Log.d("Human",speech);
     }
 
     public void birthday() {
+        int age = getAge();  //current age
         age = age + 1;
+        setAge(age);   //new age
     }
 
     public int birthday(int age) {
